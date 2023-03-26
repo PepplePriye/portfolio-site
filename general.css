@@ -1,0 +1,190 @@
+/* General conventions */
+/* 
+FONT-WEIGHTS: 800
+FONT-SIZES: 1.2,
+PADDINGS: 0.4REM
+GAPS: 44REM, 2.2REM
+
+*/
+
+/* COLOR */
+/* 
+MAIN - #ffc004
+90% TINT -#fff9e6
+80% TINT - #fff2cd
+50% SHADE - #806002
+ */
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+}
+
+    
+
+/* NAV SECTION */
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 2.4rem;
+    background-color: #fff2cd;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: 5rem;
+}
+
+.link-lists {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+.nav-links:link,
+.nav-links:visited {
+    text-decoration: none;
+    color: #ffc004;
+    font-size: 1.5rem;
+    font-weight:800;
+    transition: all 0.3s;
+}
+
+.nav-links:hover,
+.nav-links:active {
+    color: #806002;
+}
+
+/* HERO SECTION */
+.container {
+    padding: 9.6rem 4.8rem;
+}
+.color {
+    background-color: #fff9e6;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: -30rem;
+    margin: 0 auto;
+    max-width: 120rem;
+    align-items: center;
+}
+.hero-img {
+    width: 100%;
+    border-radius: 100%;
+    height: 100%;
+    padding-right: 10rem;
+}
+
+.hero-text {
+    font-size: 5.2rem;
+    font-weight: 800;
+    color: #ffc004;
+    margin-bottom: 3.2rem;
+}
+
+.hero-text, .hero-text-2 {
+    line-height: 1.05;
+    
+}
+.hero-text-description {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 3.2rem;
+}
+
+.cta-link:link,
+.cta-link:visited {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #ffc004;
+    color: #fff9e6;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cta-link:hover,
+.cta-link:active {
+    background-color: #806002;
+}
+
+/* ABOUT ME SECTION */
+.about-head {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin: auto; 
+}
+.about-text {
+    text-align: center;
+    padding: 9.6rem 0;
+}
+.person-icon {
+    padding: 0 1rem;
+    color: #ffc004;
+}
+.about-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20rem;
+    margin: 0 auto;
+    max-width: 120rem;
+    align-items: center;
+}
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+.about-name {
+    font-size: 3.5rem;
+    color: #ffc004;
+    line-height: 1rem;
+}
+.about-expertise {
+    font-size: 1.5rem;
+    line-height: 7rem;
+}
+.about-elaborate {
+    font-size: 1.5rem;
+}
+.cta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+span {
+    color: #806002;
+    font-weight: 500;
+}
+.resume {
+    text-decoration: none;
+    color: #ffc004;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 6rem;
+    letter-spacing: 0.5rem;
+    outline-width: 1rem;
+    outline-color: #ffc004;
+}
+.centered {
+    align-items: center;
+    justify-content: center;
+}
